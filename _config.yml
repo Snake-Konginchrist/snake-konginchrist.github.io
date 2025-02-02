@@ -147,11 +147,11 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4,clarity" # 正确格式
   google:
-    tracking_id          :  "G-J70WL0FH4Y"
+    tracking_id          : "G-J70WL0FH4Y"
   clarity:
-    project_id           :  "q3mse9s2e0"
+    project_id           : "q3mse9s2e0"
 
 
 # Reading Files

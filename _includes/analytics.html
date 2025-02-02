@@ -11,6 +11,10 @@
   {% include /analytics-providers/clarity.html %}
 {% when "custom" %}
   {% include /analytics-providers/custom.html %}
-{% endcase %}
 
+    <!-- 同时加载GA和Clarity -->
+{% when "google-analytics-4,clarity" %}
+  {% include analytics-providers/google-analytics-4.html %}
+  {% include analytics-providers/clarity.html %}
+{% endcase %}
 {% endif %}
