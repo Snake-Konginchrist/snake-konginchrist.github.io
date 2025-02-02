@@ -5,23 +5,24 @@
 # prevent it from being included in the site.
 
 main:
+  - title: "About"
+    url: /
+    icon: "fas fa-user"  # Font Awesome图标
+
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  
+  - title: "Awards"
+    url: /awards/
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
+  - title: "Startups"
+    url: /startups/
+    
+  - title: "Hobbies"
+    url: /hobbies/
+    
+  - title: "Blog"
     url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/

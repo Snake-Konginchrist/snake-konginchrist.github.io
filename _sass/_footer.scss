@@ -90,3 +90,26 @@
     }
   }
 }
+
+.page__footer-beian {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  gap: 0.5rem;
+  // font-size: 0.8em;
+  
+  a {
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .beian-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: text-bottom;
+    margin-right: 0.2em;
+  }
+}

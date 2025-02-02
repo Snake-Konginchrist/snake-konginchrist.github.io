@@ -1,14 +1,61 @@
-# Ignore the contents of the _site directory and other cache directories
+# 基础忽略
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 本地环境文件
 _site/
 .sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+.ruby-version
+.env
+.env.local
+.env.*.local
+
+# 编辑器配置
 .idea/
+.vscode/
+*.code-workspace
 
-# Ignore the directory for local files during development
-local/
+# 测试相关
+coverage/
+spec/reports/
+test/tmp/
 
-# Ignore the Gemfile that is generated
-Gemfile.lock
+# 系统文件
+*.orig
+*.bak
+*.backup
 
-# Ingore files created by npm
-node_modules
+# 大文件
+*.zip
+*.tar.gz
+*.7z
+
+# 本地图片缓存
+/images/raw/
+/images/work-in-progress/
+
+# 敏感文件
+_config-dev.yml
+/keys/
+/credentials/
+*.pem
+*.key
+
+# 依赖管理
+node_modules/
+bower_components/
 package-lock.json
+yarn.lock
+
+# Jekyll生成文件
+Gemfile.lock
