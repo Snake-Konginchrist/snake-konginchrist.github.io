@@ -36,6 +36,9 @@
   "scripts": {
     "uglify": "uglifyjs node_modules/jquery/dist/jquery.min.js node_modules/fitvids/dist/fitvids.min.js node_modules/magnific-popup/dist/jquery.magnific-popup.min.js node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify"
+    "build:js": "npm run uglify",
+    "bundle:clarity": "browserify assets/js/clarity.js -o _site/assets/js/clarity-bundle.js",
+    "build": "jekyll build && npm run bundle:clarity",
+    "start": "npm run build && jekyll serve -l -H localhost"
   }
 }
