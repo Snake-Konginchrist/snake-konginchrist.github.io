@@ -8,6 +8,11 @@ redirect_from:
 ---
 
 ## Education
+**ShanghaiTech University**  
+M.S. in Information and Communication Engineering (2025-Now)  
+School of Information Science and Technology  
+Advisor: Prof. Jie Lu  
+
 **Fuzhou University**  
 B.E. in Internet of Things Engineering (2020-2024)  
 College of Physics and Information Engineering  
@@ -15,9 +20,9 @@ Thesis: *Virtual Target Manipulation Method Based on Eye-Hand Combined Control*
 Advisor: Prof. Yi Lin
 
 ## Research Interests
-- Virtual/Augmented Reality (VR/AR)
-- Human-Computer Interaction
-- Edge AI Applications
+- Distributed and Large-scale Optimization Algorithms
+- Multi-agent Decision Making and Control
+- Signal Processing for Wireless Communications
 
 ## Honors & Awards
 ### Competitions
